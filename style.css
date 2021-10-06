@@ -42,14 +42,13 @@ header{
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: ;
+ 
   /* Needed to position the navbar */
 }
 /* Position the navbar container inside the image */
 .container11 {
   width: 100%;
 }
-
 .text{
 text-align: center;
 margin-top: 40px;
@@ -92,7 +91,7 @@ cursor: pointer;
         transform-style: preserve-3d;
   -webkit-perspective: 1000px;
           perspective: 1000px;
-          margin-top: %;
+          margin-top: 0%;
 }
 
 .front,
@@ -115,14 +114,12 @@ border-radius: 10px;
   color: #fff;
   font-size: 1.0em;
 }
-
 .back{
 background: #cedce7;
 background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
 background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
 background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
 }
-
 .front:after{
   position: absolute;
   top: 0;
@@ -152,7 +149,6 @@ background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
   left: 0;
   width: 100%;
 }
-
 .inner{
   -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
           transform: translateY(-50%) translateZ(60px) scale(0.94);
@@ -168,41 +164,35 @@ background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
           perspective: inherit;
   z-index: 2;
 }
-
 .container .back{
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-
 .container .front{
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-
 .container:hover .back{
 -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
 -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
 }
-
 .container:hover .front{
 -webkit-transform: rotateY(-180deg);
         transform: rotateY(-180deg);
 -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
 }
-
 .front .inner p{
 font-size: 2rem;
 margin-bottom: 2rem;
 position: relative;
 }
-
 .front .inner p:after{
 content: '';
 width: 4rem;
@@ -215,13 +205,11 @@ right: 0;
 margin: 0 auto;
 bottom: -.75rem;
 }
-
 .front .inner span{
 color: rgba(255,255,255,0.7);
 font-family: 'Montserrat';
 font-weight: 300;
 }
-
 @media screen and (max-width: 64rem){
 .col{
   width: calc(33.333333% - 2rem);
@@ -233,7 +221,6 @@ font-weight: 300;
   width: calc(50% - 2rem);
 }
 }
-
 @media screen and (max-width: 32rem){
 .col{
   width: 100%;
@@ -272,7 +259,6 @@ width: 100%;
 background-color:white;
 min-height: 860px;
 }
-
 .blink{
 top:1%;
 text-align:center;
@@ -326,7 +312,6 @@ width: 100%;
 background-color:white;
 }
 .paragraph3{
-top:3%;
 margin-right:10%;
 margin-left:10%;
 font-size: 1.1em;
@@ -341,7 +326,6 @@ top:2%;
  position: absolute;
 }
 .image5{
-top:5%;
  margin-left:42%;
  position: absolute;
 }
@@ -399,78 +383,14 @@ width: 100%;
   top: 50%;
   margin-left:41%;
 }
-.container6
-{
-  position: absolute;
-  top:210%;
-  width: 100%;
-  background-color:white;
-} 
-.container7{
-  
-  position: absolute;
-  top:150%;
-  width: 100%;
-  background-color:white;
-}
-.footer {
-  width: 100%;
-  position: relative;
-  height: auto;
 
-}
-.footer .col {
-  width: 190px;
-  height: auto;
-  float: left;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding: 0px 20px 20px 20px;
-}
-.footer .col h1 {
-  margin: 5%;
-  padding: 0;
-  font-family: inherit;
-  font-size: 12px;
-  line-height: 17px;
-  padding: 20px 0px 5px 0px;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.250em;
-}
-.footer .col ul {
-  list-style-type: none;
-  margin: 0%;
-  padding: 0;
-  
-}
-.footer .col ul li{
-  font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 5px 0px 5px 0px;
-  cursor: pointer;
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
-}
-.drive
-{
-  margin-top: 8%;
-  margin-left:50%;
-}
-.HW{
-  margin-top: 2%;
-  margin-left:10%;
-}
+
 .BP{
-  margin-top: 2%;
+  margin-top:2%;
   margin-left:10%;
   font-size:1.5em;
 }
 .Range{
-  top:20%;
   margin-left:6%;
   color:black;
   font-size: 1.5em;
@@ -599,7 +519,6 @@ font-style: anton;
 .list{
 font-size:1.25em;
 line-height: 85%;
-margin-top:7%;
 color:white;
 }
 .bg-img5{
@@ -614,29 +533,18 @@ color:white;
   /* Needed to position the navbar */
   position: relative;
 }.global{
-  top:10%;
+  
   margin-left:6%;
   color:black;
   font-size: 1.5em;
 }
-.paragraph5{
-  position: absolute;
-  top:150%;
-  font-size: 1.5em;
-  color:black;
-  font-weight: 100;
-  line-height: 85%;
-  text-align: center;
-  margin-right:10%;
-  margin-left:5%;
-  }
+
   .list1{
-    font-size:1.3em;
+font-size:1.3em;
 position: absolute;
 line-height: 85%;
 left:9%;
-top:75%;
-margin-top: 3%;
+
   }
   .list3
   {
@@ -644,7 +552,6 @@ margin-top: 3%;
 position: absolute;
 line-height: 85%;
 margin-left:5%;
-margin-top:1%;
   }
   .paragraph15{
     position: absolute;
@@ -663,4 +570,3 @@ margin-top:1%;
   margin-left:5%;
   margin-top:1%;
     }
-   
